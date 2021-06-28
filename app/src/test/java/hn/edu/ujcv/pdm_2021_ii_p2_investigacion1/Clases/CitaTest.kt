@@ -14,6 +14,6 @@ class CitaTest : TestCase() {
         val citas = hashMapOf<Int, Cita>()
         citas.put(cita1.numero, cita1)
 
-        assertEquals("El precio de la cita numero 1 es = 15.0", cita1.comprobarPrecio(citas, cita1.numero))
+        assertEquals("El precio de la cita numero 1 es = 20.0", cita1.comprobarPrecio(citas, cita1.numero))
     }//--
 }//-----
