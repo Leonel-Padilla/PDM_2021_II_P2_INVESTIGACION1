@@ -1,2 +1,4 @@
 rootProject.name = "PDM_2021_II_P2_INVESTIGACION1"
 include ':app'
+include ':kmmsharedmodule'
+include ':kmmsharedmodule'
